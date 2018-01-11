@@ -12,3 +12,9 @@ Unity
 
 * 準備  
 `brew cask install unity`
+
+Project - Game
+- Scene  
+-- GameObject  
+--- Component  
+- Assets  
