@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 213405784}
   - component: {fileID: 213405783}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0a17f36e7de134a51b6036bc7f48a70b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -190,9 +190,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 213405782}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.03351234, y: -0.7827424, z: 0.04230961, w: 0.620001}
+  m_LocalPosition: {x: 19.823282, y: 3.9770746, z: 4.618926}
+  m_LocalScale: {x: 10, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -271,8 +271,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477289395}
-  m_LocalRotation: {x: -0.040217835, y: -0.89746433, z: -0.0837054, w: 0.4312003}
-  m_LocalPosition: {x: 15.547413, y: -2.2446427, z: 12.828304}
+  m_LocalRotation: {x: 0.08508894, y: -0.7782742, z: 0.10808929, w: 0.6126712}
+  m_LocalPosition: {x: 72.159775, y: 20.376476, z: 17.330776}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
