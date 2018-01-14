@@ -25,4 +25,12 @@ public class PlayerScript : MonoBehaviour
     var x = Input.GetAxis("Horizontal");
     transform.Translate(x * 0.2F, 0, 0);
   }
+
+  void OnCollisionEnter(Collision collision)
+  {
+    if (collision.gameObject.name == "RightWall")
+    {
+      Debug.Log("Hit R!");
+    }
+  }
 }
