@@ -13,6 +13,11 @@ public class EnemyScript : MonoBehaviour
     transform.position = pos;
 
     transform.Rotate(1, 1, 1);
+
+    if (transform.position.z < -12.0f)
+    {
+      Application.LoadLevel("GameOver");
+    }
   }
 
   void OnCollisionEnter()
