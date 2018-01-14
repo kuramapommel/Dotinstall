@@ -632,7 +632,7 @@ PlayerSettings:
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 42d908e3-74b3-495d-9614-5a441f651735
   projectName: MySecondUnity
   organizationId: unity_v-nsregc8vzlkg
