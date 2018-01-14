@@ -14,4 +14,9 @@ public class EnemyScript : MonoBehaviour
 
     transform.Rotate(1, 1, 1);
   }
+
+  void OnCollisionEnter()
+  {
+    Destroy(gameObject);
+  }
 }
