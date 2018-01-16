@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -8,15 +9,12 @@ public class EnemyScript : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    var pos = transform.position;
-    pos.z -= 0.1F;
-    transform.position = pos;
-
+    transform.Translate(0, 0, -0.1f, Space.World);
     transform.Rotate(1, 1, 1);
 
     if (transform.position.z < -12.0f)
     {
-      Application.LoadLevel("GameOver");
+      SceneManager.LoadScene("GameOver");
     }
   }
 
