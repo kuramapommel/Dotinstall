@@ -16,13 +16,9 @@ public class PlayerScript : MonoBehaviour
     if (collision.gameObject.name == "Enemy(Clone)")
     {
       var localScale = transform.localScale;
-      localScale.x -= Random.Range(0.1F, 0.5F);
+      var x = localScale.x - Random.Range(0.1F, 0.5F);
 
-      if (localScale.x < 1.0F)
-      {
-        localScale.x = 1.0F;
-      }
-
+      localScale.x = x < 1.0f ? 1.0f : x;
       transform.localScale = localScale;
     }
 
