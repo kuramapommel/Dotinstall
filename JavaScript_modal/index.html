@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Modal Window</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div id="open">
+    open modal window
+  </div>
+
+  <div id="mask" class="hidden"></div>
+
+  <div id="modal" class="hidden">
+    <p>modal modal modal</p>
+    <div id="close">
+      close
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+  <script>
+    const mask = document.getElementById('mask');
+    initModal('open', 'close', 'modal', mask);
+  </script>
+</body>
+</html>
